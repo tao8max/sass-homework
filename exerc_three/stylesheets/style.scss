@@ -1,0 +1,99 @@
+body {
+	text-align: center;
+}
+
+@media (min-width: 1000px) {
+
+	#bod {
+		width: 900px;
+		margin: 0px auto;
+		height: auto;
+		border: 1px solid gray;
+		border-radius: 25px 25px 0 0;
+	}
+
+	div {
+		margin: 0px 15px 15px 15px;
+		display: inline-block;
+   		img {
+			max-width: 100%;
+		}
+	}
+}
+
+@media (min-width: 768px) and (max-width: 999px) {
+	#bod {
+		width: 700px;
+		margin: 0px auto;
+		height: auto;
+		border: 1px solid gray;
+		border-radius: 15px 15px 0 0;
+	}
+
+	div {
+		margin: 0px 10px 10px 10px;
+		display: inline-block;
+		img {
+			max-width: 80%;
+		}
+	}
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+	#bod {
+		width: 470px;
+		margin: 0px auto;
+		height: auto;
+		border: 1px solid gray;
+		border-radius: 5px 5px 0 0;
+	}
+
+	div {
+		margin: 0px 5px 5px 5px;
+		display: inline-block;
+		img {
+			max-width: 60%;
+		}
+	}
+}
+
+@media (max-width : 320px) {
+	#bod {
+		width: 315px;
+		margin: 0px auto;
+		height: auto;
+		border: 1px solid gray;
+		border-radius: 3px 3px 0 0;
+	}
+
+	div {
+		margin: 0px 3px 3px 3px;
+		display: inline-block;
+		img {
+			max-width: 40%;
+		}
+	}
+}
+
+#headercustom{
+	font-size: 25px;
+	height: 50px;
+	margin: 0px auto;
+	margin-bottom: 10px;
+}
+
+
+h1 {
+	color: #000000;
+	font: Georgia;
+	text-align: center;
+}
+
+#main{
+	width: 99%;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	background-color: white;
+	float: left; 
+}
